@@ -56,7 +56,7 @@ function parseCommands(player, message, event) {
   }
   command.callback(player, args, event)
 }
-world.beforeEvent.chatSend.subscribe((e) => {
+world.beforeEvents.chatSend.subscribe((e) => {
   if (e.message.startWith('!')) return parseCommands(e.sender, e.message.subString(1), e)
 })
 // -------------------- setBounty Function --------------------
