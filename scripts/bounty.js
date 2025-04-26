@@ -257,3 +257,8 @@ function specificBountySetter(viewer, player, setter) {
     specificBounty(viewer, player)
   })
 }
+function score(player, objective) {
+const obj = world.scoreboard.getObjective(objective)
+const score = obj.getScore(player)
+return score
+}
