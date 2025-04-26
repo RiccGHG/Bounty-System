@@ -1,7 +1,11 @@
-</header> 
-
 # Bounty System
 This Bounty System is for **Minecraft Bedrock**.
+Change the Money Objectives in the lines:
+>  30
+> 
+> 141
+> 
+> 196
 ### Commands
 The commands are:
 
