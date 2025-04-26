@@ -7,3 +7,4 @@ The commands are:
 
 - **!bounty \<target> \<amount>**
 - **!bouny-menu**
+![image](glyph_E1.png)
